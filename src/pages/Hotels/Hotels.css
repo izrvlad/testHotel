@@ -1,0 +1,30 @@
+.Hotels {
+    display: grid;
+    grid-template-areas: 'search hotels hotels' 'fovarite hotels hotels';
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:350px minmax(250px,1fr);
+    gap: 24px;
+    margin: 0 196px 30px 196px;
+    min-height: 0;
+    min-width: 0;   
+
+}
+
+@media (max-width: 1400px) {
+    .Hotels {
+        margin: 0 20px 30px 20px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .Hotels {
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 826px) {
+    .Hotels {
+        display: flex;
+        flex-direction: column;
+    }
+}

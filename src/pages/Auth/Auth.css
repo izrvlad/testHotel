@@ -1,0 +1,41 @@
+.fullscreen {
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: url("../../background.png");
+    background-size: 100% 100%;
+    background-position: top left;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.form {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 16px;
+    box-sizing: border-box;
+    flex: 0 0 382px;
+    background-color: #fff;
+    padding: 32px;
+}
+
+.form h1 {
+    margin: 0 0 32px 0;
+    align-self: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #424242;
+}
+
+form .Input {
+    margin-bottom: 24px;
+}

@@ -1,0 +1,47 @@
+.Order {
+    font-size: 14px;
+    line-height: 20px;
+    color: #99A0A3;
+    border: 1px solid #99A0A3;
+    border-radius: 4px;
+    padding: 4px 20px 4px 4px;
+    cursor: pointer;
+    position: relative;
+}
+
+.Order:not(:last-child) {
+    margin-right: 16px;
+}
+
+.Order.desc, .Order.ask {
+    border-color: #41522E;
+    color: #41522E;
+}
+
+.Order.desc:after {
+    border-color: #41522E;
+}
+
+.Order.ask:before {
+    border-color: #41522E;
+}
+
+.Order:before, .Order:after {
+    content: "";
+    position: absolute;
+    border: solid #99A0A3;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 2px;
+    right: 5px;
+}
+
+.Order:before {
+    transform: rotate(-135deg);
+    top: 8px;
+}
+
+.Order:after {
+    transform: rotate(45deg);
+    bottom: 8px;
+}

@@ -1,0 +1,10 @@
+.Search {
+    grid-area: search;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 16px;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 32px;
+}
